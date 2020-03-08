@@ -9,6 +9,7 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .time-select,
@@ -31,7 +32,7 @@
   height: 50%;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%) rotate(-90deg);
   pointer-events: none;
 }
 
@@ -43,6 +44,7 @@
 }
 
 video {
+  opacity: 0.7;
   position: fixed;
   top: 0%;
   left: 0%;
